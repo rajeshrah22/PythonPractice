@@ -1,4 +1,6 @@
-﻿def is_year_leap(year):
+﻿#prints day of the year
+
+def is_year_leap(year):
     if (year%400 == 0):
             return True
     elif (year%100 == 0):

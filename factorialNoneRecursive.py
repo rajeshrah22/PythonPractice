@@ -1,4 +1,6 @@
-﻿def factorial_function(n):
+﻿#non recursive factorial function
+
+def factorial_function(n):
     if n < 0:
         return None
     if n < 2:
