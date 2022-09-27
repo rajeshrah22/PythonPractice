@@ -5,7 +5,7 @@ class Timer:
         self.__seconds = seconds
 
     def __str__(self):
-        return str(self.__hours) + ":" + str(self.__seconds) + ":" + str(self.__minutes)
+        return "%02d:%02d:%02d" %(self.__hours, self.__minutes, self.__seconds)
 
     def next_second(self):
         self.__seconds += 1
@@ -33,9 +33,6 @@ class Timer:
                 self.__minutes = 0
                 if(self.__hours < 0):
                     self.__hours, self.__minutes, self.__seconds = 23, 59, 59  #reverts back to the last second of the previous day
-
-        
-
 
 timer = Timer(23, 59, 59)
 print(timer)
