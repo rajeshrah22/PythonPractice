@@ -34,9 +34,3 @@ class Timer:
                 if(self.__hours < 0):
                     self.__hours, self.__minutes, self.__seconds = 23, 59, 59  #reverts back to the last second of the previous day
 
-timer = Timer(23, 59, 59)
-print(timer)
-timer.next_second()
-print(timer)
-timer.prev_second()
-print(timer)
