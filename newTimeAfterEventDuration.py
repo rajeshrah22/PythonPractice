@@ -1,4 +1,6 @@
-﻿hour = int(input("Starting time (hours): "))
+﻿#Given an event start time and duration, calculates the end time
+
+hour = int(input("Starting time (hours): "))
 mins = int(input("Starting time (minutes): "))
 dura = int(input("Event duration (minutes): "))
 

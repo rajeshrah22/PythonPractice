@@ -1,3 +1,4 @@
+#created my own python split function, which is useless and less efficient
 def mysplit(strng):
     list = []
     i,j = 0,0

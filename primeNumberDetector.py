@@ -1,4 +1,6 @@
-﻿def is_prime(num):
+﻿#checks if number is prime
+
+def is_prime(num):
     prime = True
     for i in range(num-2):
         if num % (i+2) == 0:
